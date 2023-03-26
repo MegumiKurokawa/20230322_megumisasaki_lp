@@ -21,8 +21,8 @@ a {
 }
 
 .firstview {
-   position: relative;
-   margin-bottom: 100px;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .firstview__img {
@@ -167,7 +167,7 @@ a {
     font-size: 16px;
 }
 
-.service-wrap__item-content{
+.service-wrap__item-content {
     text-align: left;
     margin-top: 50px;
 }
@@ -177,7 +177,7 @@ a {
     justify-content: center;
 }
 
-.service-wrap__item--second{
+.service-wrap__item--second {
     grid-row: 1/2;
     grid-column: 2/3;
     background: rgb(212, 2, 142);
