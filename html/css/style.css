@@ -23,12 +23,17 @@ a {
 .firstview {
     position: relative;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 .firstview__img {
-    display: block;
-    width: 50%;
-    margin: 0 0 0 auto;
+    display: flex;
+    margin-left: 50%;
+}
+
+.firstview__img img {
+    max-width: 100%;
+    height: auto;
 }
 
 .firstview__title {
@@ -218,10 +223,12 @@ a {
     left: 0;
     padding: 10px;
     background: rgb(191, 21, 50);
+    border-radius: 10px 0 0 0;
 }
 
 .main__blog-img img {
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .main__blog-content {
@@ -262,3 +269,4 @@ a {
 .blog__link a {
     color: rgb(191, 21, 50);
 }
+
