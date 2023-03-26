@@ -270,3 +270,53 @@ a {
     color: rgb(191, 21, 50);
 }
 
+.main__summary {
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.main__summary-table {
+    margin: 30px auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.main__summary-th {
+    background: #e8e6e6;
+    width: 300px;
+    padding-left: 10px;
+}
+
+.main__summary-td {
+    width: 700px;
+    padding-left: 10px;
+}
+
+.recruit {
+    display: flex;
+}
+
+.main__recruit-flex {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__recruit-flex img {
+    width: 100%;
+    height: auto;
+}
+
+.recruit-item {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
