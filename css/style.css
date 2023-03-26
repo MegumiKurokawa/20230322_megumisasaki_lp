@@ -125,37 +125,37 @@ a {
     margin-top: 30px;
 }
 
-.main__service-title, .main__service-img {
-    text-align: center;
+
+.flex-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 1000px;
 }
 
-.main__service-content {
-    max-width: 700px;
-    background: rgb(129, 44, 44);
-    margin: 0 auto;
-    padding: 0 50px 100px 50px;
-}
-
-.main__service-img img {
+.service-wrap__item-img img {
     width: 200px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    height: auto;
 }
 
-.main__service-content-text1 {
+.service-wrap__item--first {
+    width: 50%;
     text-align: center;
-    font-size: 28px;
+    background: rgb(154, 2, 103);
+    color: white;
+}
+
+.service-wrap__item-content--title {
+    font-size: 24px;
     font-weight: bold;
-    color: white;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-.main__service-content-text2 {
-    text-align: center;
-    overflow-wrap: normal;
-    font-size: 20px;
-    color: white;
+.service__sample-text--first {
+    margin: 0 30px 100px 30px;
 }
+
+.se
 
 .main__blog-flex {
     display: flex;
