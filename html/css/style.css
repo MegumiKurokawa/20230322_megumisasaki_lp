@@ -1,7 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-between;
-    margin: 0 30px;
+    align-items: center;
 }
 
 .header__title img {
@@ -9,10 +8,13 @@
     height: auto;
 }
 
-nav ul li {
+.header__nav {
+    margin-left: auto;
+}
+
+.header__ul .header__list {
     display: inline-block;
     margin-right: 30px;
-    margin-top: 20px;
 }
 
 a {
@@ -22,8 +24,8 @@ a {
 
 .firstview {
     position: relative;
-    margin-bottom: 100px;
     width: 100%;
+    height: auto;
 }
 
 .firstview__img {
@@ -38,14 +40,14 @@ a {
 
 .firstview__title {
     position: absolute;
-    top: 30%;
-    left: 32%;
+    top: 15%;
+    left: 35%;
 }
 
 .firstview__title-item {
     line-height: 100px;
     font-family: 'Indie Flower', cursive;
-    font-size: 80px;
+    font-size: 70px;
     color: rgb(141, 0, 0);
 }
 
@@ -54,7 +56,7 @@ a {
 }
 
 .firstview__title-cat {
-    margin-top: 90px;
+    margin-top: 60px;
     font-size: 30px;
     color: rgb(171, 3, 3);
 }
@@ -63,19 +65,21 @@ a {
     line-height: 30px;
     font-size: 20px;
     color: gray;
+
 }
 
 .main__newsarea {
+    margin: 100px auto;
+    align-items: center;
     width: 600px;
-    margin: auto;
 }
 
 .main__common-sub {
+    display: block;
     font-family: 'Indie Flower', cursive;
     color: rgb(171, 3, 3);
     font-weight: bold;
     margin-bottom: 20px;
-    margin-top: 100px;
 }
 
 .main__common-title {
@@ -85,8 +89,10 @@ a {
 
 .newsarea__ul {
     list-style: none;
-    margin-top: 80px;
-    border-top: #ddd;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
 }
 
 .newsarea__list {
@@ -132,7 +138,7 @@ a {
 
 .service {
     width: 70%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .flex__item {
@@ -217,6 +223,7 @@ a {
     height: auto;
     border: solid 1px #ddd;
     border-radius: 10px;
+    background: white;
 }
 
 
@@ -247,19 +254,15 @@ a {
     font-weight: bold;
 }
 
-.main__blog-content-tag {
-    list-style: none;
+.main__blog-ul {
+    word-break: break-all;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
 }
 
-.main__blog-content-tag--date {
-    display: inline-block;
-}
-
-.main__blog-content-tag--tag {
-    display: inline-block;
+.main__blog-li {
+    width: auto;
 }
 
 .blog__link {
@@ -276,9 +279,7 @@ a {
 }
 
 .main__summary {
-    width: 950px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    margin: 100px auto;
 }
 
 .main__summary-table {
@@ -357,7 +358,8 @@ table, th, td {
     border-radius: 50px;
 }
 
-.footer {
+.footer__copy {
+    padding: 20px 0;
     text-align: center;
     background: #efefef;
 }

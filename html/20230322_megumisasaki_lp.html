@@ -15,7 +15,7 @@
 <body>
     <div class="header">
         <div class="header__title"><img src="../img/estra_logo.png" alt=""></div>
-        <nav>
+        <nav class="header__nav">
             <ul class="header__ul">
                 <li class="header__list"><a href="#">News</a></li>
                 <li class="header__list"><a href="#">About</a></li>
@@ -29,11 +29,11 @@
     <div class="firstview">
         <div class="firstview__img">
             <img src="../img/firstview.jpg" alt="">
-            <div class="firstview__title">
-                <h1 class="firstview__title-item">Commit to the <span class="firstview__title-cat__color">growth</span><br>for everyone</h1>
-                <h2 class="firstview__title-cat">全ての人の<span class="firstview__title-cat__color">成長</span>にコミットする</h2>
-                <p class="firstview__title-info">Educational Technology Company<br>estra inc since 2019</p>
-            </div>
+        </div>
+        <div class="firstview__title">
+            <h1 class="firstview__title-item">Commit to the <span class="firstview__title-cat__color">growth</span><br>for everyone</h1>
+            <h2 class="firstview__title-cat">全ての人の<span class="firstview__title-cat__color">成長</span>にコミットする</h2>
+            <p class="firstview__title-info">Educational Technology Company<br>estra inc since 2019</p>
         </div>
     </div>
     <div class="main">
@@ -107,10 +107,12 @@
                     </div>
                     <div class="main__blog-content">
                         <h2 class="main__blog-content-title">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
-                        <ul class="main__blog-content-tag">
-                            <li class="main__blog-content-tag--date">2021/01/01</li>
-                            <li class="main__blog-content-tag--tag">#COACHTECH</li>
-                        </ul>
+                        <nav class="main__blog-nav">
+                            <ul class="main__blog-ul">
+                                <li class="main__blog-li main__blog-li__date">2021/01/01</li>
+                                <li class="main__blog-li main__blog-li__tag">#COACHTECH</li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <div class="main__blog-card">
@@ -120,10 +122,12 @@
                     </div>
                     <div class="main__blog-content">
                         <h2 class="main__blog-content-title">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
-                        <ul class="main__blog-content-tag">
-                            <li class="main__blog-content-tag--date">2021/01/01</li>
-                            <li class="main__blog-content-tag--tag">#COACHTECH</li>
-                        </ul>
+                        <nav class="main__blog-nav">
+                            <ul class="main__blog-ul">
+                                <li class="main__blog-li main__blog-li__date">2021/01/01</li>
+                                <li class="main__blog-li main__blog-li__tag">#COACHTECH</li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <div class="main__blog-card">
@@ -133,15 +137,17 @@
                     </div>
                     <div class="main__blog-content">
                         <h2 class="main__blog-content-title">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
-                        <ul class="main__blog-content-tag">
-                            <li class="main__blog-content-tag--date">2021/01/01</li>
-                            <li class="main__blog-content-tag--tag">#COACHTECH</li>
-                        </ul>
+                        <nav class="main__blog-nav">
+                            <ul class="main__blog-ul">
+                                <li class="main__blog-li main__blog-li__date">2021/01/01</li>
+                                <li class="main__blog-li main__blog-li__tag">#COACHTECH</li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
+            <div class="blog__link"><a href="blog.html">一覧ページへ</a></div>
         </div>
-        <div class="blog__link"><a href="blog.html">一覧ページへ</a></div>
     </div>
     <div class="main__summary">
         <p class="main__common-sub">Company</p>
@@ -189,7 +195,7 @@
         <a href="contact.html" class="main__contact-btn">お問い合わせ</a>
     </div>
     <footer class="footer">
-        <p>Copyright &copy; 2019 estra, inc. All Rights Reserved</p>
+        <p class="footer__copy">Copyright &copy; 2019 estra, inc. All Rights Reserved</p>
     </footer>
 </body>
 </html>
