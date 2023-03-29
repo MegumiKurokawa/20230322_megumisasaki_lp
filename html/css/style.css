@@ -309,6 +309,7 @@ table, th, td {
 }
 
 .main__recruit-flex {
+    width: 50%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -316,7 +317,7 @@ table, th, td {
 }
 
 .main__recruit-flex img {
-    width: 948px;
+    width: 100%;
     height: auto;
 }
 
