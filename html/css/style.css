@@ -219,7 +219,7 @@ a {
 
 .main__blog-card {
     position: relative;
-    width: 30%;
+    width: 40%;
     height: auto;
     border: solid 1px #ddd;
     border-radius: 10px;
@@ -334,8 +334,11 @@ table, th, td {
     text-align: center;
 }
 
-.main__contact-title::after {
-    border-left: solid 2px rgb(191, 21, 50);
+.contact__border {
+    margin: 10px auto 0 auto;
+    background: rgb(191, 21, 50);
+    width: 2px;
+    height: 50px;
 }
 
 .main__contact-btn::before {
