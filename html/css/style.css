@@ -155,7 +155,7 @@ a {
 }
 
 .service-wrap__item-img img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
@@ -198,13 +198,17 @@ a {
     background: rgb(234, 160, 209);
 }
 
+.service__sample-text {
+    line-height: 20px;
+}
+
 .blog {
     background: #efefef;
     padding-bottom: 20px;
 }
 
 .main__blog {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -222,6 +226,7 @@ a {
     border: solid 1px #ddd;
     border-radius: 10px;
     background: white;
+    margin-right: 30px;
 }
 
 
@@ -277,7 +282,8 @@ a {
 }
 
 .main__summary {
-    margin: 100px auto;
+    width: 80%;
+    margin: auto;
 }
 
 .main__summary-table {
